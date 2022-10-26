@@ -1,0 +1,46 @@
+.rule_box{
+  background-color: gray;
+  height: 520px;
+  width: 320px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 20px;
+}
+.rule_box>.rule_header>h2{
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+}
+.rule_box>.rule_list{
+  margin-top: 20px;
+}
+.rule_box>.rule_list>ol{
+  list-style-position: inside;
+}
+.rule_box>.rule_list>ol>li{
+  margin: 15px 0;
+}
+.rule_box>.rule_footer{
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  top: 137px;
+}
+.rule_box>.rule_footer>.exit{
+  position: absolute;
+  left: 0;
+}
+.rule_box>.rule_footer>.continue{
+  position: absolute;
+  right: 0;
+}
+.rule_box>.rule_footer>div>button{
+  background-color: rgba(255, 0, 0, 1); 
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

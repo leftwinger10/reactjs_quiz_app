@@ -1,0 +1,62 @@
+.q_box{
+  background-color: gray;
+  height: 520px;
+  width: 320px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  position: relative;
+}
+.q_box>.q_header{
+  position: relative;
+  height: 30px;
+  border-bottom: 1px solid red;
+}
+.q_box>.q_header>.q_time{
+  position: absolute;
+  right: 0;
+  line-height: 30px;
+}
+.q_box>.q_loader{
+  width: 50%;
+  height: 2px;
+  background-color: red;
+}
+.q_box>.q_question{
+  margin: 20px 0;
+}
+.q_box>.q_options>.q_question{
+  border: 1px solid red;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.q_box>.q_footer{
+  position: absolute;
+  width: 280px;
+  bottom: 15px;
+  height: 30px;
+}
+.q_box>.q_footer>.footer_content{
+  position: relative;
+}
+.q_box>.q_footer>.footer_content>.q_page{
+  position: absolute;
+  left: 0;
+  line-height: 30px;
+}
+.q_box>.q_footer>.footer_content>.q_next{
+  position: absolute;
+  right: 0;
+  background-color: rgba(255, 0, 0, 1); 
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+

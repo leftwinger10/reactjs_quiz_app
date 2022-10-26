@@ -1,0 +1,45 @@
+.w_box{
+  background-color: gray;
+  height: 520px;
+  width: 320px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 20px;
+  position: relative;
+}
+.w_box>.w_header{}
+.w_box>.w_header>h2{
+  letter-spacing: 3px;
+}
+.w_box>.w_header>small{
+  color: red;
+  opacity: 0.9;
+  font-weight: 600;
+}
+.w_box>.w_body{}
+.w_box>.w_body>p{
+  margin: 10px 0;
+  text-align: justify;
+  display: none;
+}
+.w_box>.w_start{
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 30px;
+  width: 100%;
+}
+.w_box>.w_start>button{
+  width: 100%;
+  background-color: rgba(255, 0, 0, 1); 
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
